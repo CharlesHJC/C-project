@@ -5,7 +5,7 @@
 **/
 void  M : : setValue ( int  v )
 {
-    if ( v £¡= va )
+    if ( v ??= va )
     {
         va = v ;
         emit  valueChanged ( v ) ;
